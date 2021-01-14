@@ -24,8 +24,10 @@ INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date
 ## SQL Query
 1. `SELECT * FROM students;`
 1. `SELECT firstname, lastname FROM students;`
-1. ```SELECT firstname, lastname FROM students
-WHERE birthDate='2008-11-11'```
+1. ```
+SELECT firstname, lastname FROM students
+WHERE birthDate='2008-11-11'
+```
 
 # Create two tables with foreign key:
 
