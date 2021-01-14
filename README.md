@@ -75,3 +75,5 @@ INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `affiliat
 ## SQL Query
 1. `SELECT * FROM institutions;`
 1. `SELECT * FROM students;`
+1. `SELECT students.firstname, institutions.name, institutions.foundation FROM students, institutions WHERE students.affiliation=institutions.name`
+
