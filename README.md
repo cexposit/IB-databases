@@ -19,6 +19,11 @@ INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('lucia', 'chinea', 'lucia.chinea@gmail.com', '2005-04-07', CURRENT_TIMESTAMP);
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('diego', 'moreno', 'diego.moreno@gmail.com', '2006-02-01', CURRENT_TIMESTAMP);
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('julia', 'lorenzo', 'julia.lorenzo@gmail.com', '2001-03-05', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('nuria', 'sosa', 'nuria.castro@gmail.com', '2002-08-04', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('nerea', 'flores', 'nerea.flores@gmail.com', '2003-06-07', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('airam', 'aguirre', 'airam.aguirre@gmail.com', '2004-03-06', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('israel', 'rojas', 'israel-rojas@gmail.com', '2008-02-01', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('jacob', 'castro', 'jacob.castro@gmail.com', '2005-01-02', CURRENT_TIMESTAMP);
 ```
 
 ## SQL Query
