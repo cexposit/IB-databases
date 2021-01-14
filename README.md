@@ -31,6 +31,7 @@ INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date
 1. `SELECT firstname, lastname FROM students;`
 1. `SELECT * FROM students WHERE birthDate = '2008-11-11'`
 1. `SELECT * FROM students WHERE birthDate >= '2005'`
+1. `SELECT MIN(birthDate), firstname, lastname FROM students`
 1. `SELECT COUNT(id), year(birthDate) FROM students GROUP BY year(birthDate)`
 
 # Create two tables with foreign key:
