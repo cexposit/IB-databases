@@ -20,12 +20,9 @@ INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('j
 ```
 
 ## SQL Query
-```
-SELECT * FROM students;
-```
-```
-SELECT firstname, lastname FROM students;
-```
+1. `SELECT * FROM students;`
+1. `SELECT firstname, lastname FROM students;`
+
 # Create two tables with foreign key:
 
 ## SQL Script
