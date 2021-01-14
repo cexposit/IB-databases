@@ -4,8 +4,7 @@
 
 ## SQL Script
 
-```
-CREATE TABLE students ( 
+```CREATE TABLE students ( 
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
   firstname VARCHAR(30) NOT NULL, 
   lastname VARCHAR(30) NOT NULL,  
@@ -15,12 +14,17 @@ CREATE TABLE students (
 
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('lucas', 'izquierdo', 'lucas.izquierdo@gmail.com', CURRENT_TIMESTAMP); 
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('andrea', 'arencibia', 'andrea.arencibia@hotmail.com', CURRENT_TIMESTAMP);
-INSERT INTO `students` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALUES ('1', 'antonio', 'ruiz', 'antonio.ruiz@gmail.com', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('lucia', 'chinea', 'lucia.chinea@gmail.com', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('diego', 'moreno', 'diego.moreno@gmail.com', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('julia', 'lorenzo', 'julia.lorenzo@gmail.com', CURRENT_TIMESTAMP);
 ```
 
 ## SQL Query
 ```
 SELECT * FROM students;
+```
+```
+SELECT firstname, lastname FROM students;
 ```
 # Create two tables with foreign key:
 
