@@ -33,7 +33,7 @@ WHERE birthDate='2008-11-11'
 
 ## SQL Script
 
-```
+```sql
 CREATE TABLE institutions (
   name VARCHAR(30) NOT NULL,
   foundation YEAR NOT NULL,
