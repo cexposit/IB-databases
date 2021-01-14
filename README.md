@@ -4,19 +4,21 @@
 
 ## SQL Script
 
-```CREATE TABLE students ( 
+```
+CREATE TABLE students ( 
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
   firstname VARCHAR(30) NOT NULL, 
   lastname VARCHAR(30) NOT NULL,  
-  email VARCHAR(50), 
+  email VARCHAR(50),
+  birthDate DATE NOT NULL,
   reg_date TIMESTAMP 
 ); 
 
-INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('lucas', 'izquierdo', 'lucas.izquierdo@gmail.com', CURRENT_TIMESTAMP); 
-INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('andrea', 'arencibia', 'andrea.arencibia@hotmail.com', CURRENT_TIMESTAMP);
-INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('lucia', 'chinea', 'lucia.chinea@gmail.com', CURRENT_TIMESTAMP);
-INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('diego', 'moreno', 'diego.moreno@gmail.com', CURRENT_TIMESTAMP);
-INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('julia', 'lorenzo', 'julia.lorenzo@gmail.com', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('lucas', 'izquierdo', 'lucas.izquierdo@gmail.com', '2008-11-11', CURRENT_TIMESTAMP); 
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('andrea', 'arencibia', 'andrea.arencibia@hotmail.com', '2004-03-06', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('lucia', 'chinea', 'lucia.chinea@gmail.com', '2005-04-07', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('diego', 'moreno', 'diego.moreno@gmail.com', '2006-02-01', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`firstname`, `lastname`, `email`, `birthDate`, `reg_date`) VALUES ('julia', 'lorenzo', 'julia.lorenzo@gmail.com', '2001-03-05', CURRENT_TIMESTAMP);
 ```
 
 ## SQL Query
