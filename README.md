@@ -1,4 +1,4 @@
-# IB-databases
+# IB databases:
 
 # Create table with primary key:
 
