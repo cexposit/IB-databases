@@ -1,6 +1,6 @@
 # IB-databases
 
-# Create table with primary key
+# Create table with primary key:
 
 ## SQL Script
 
@@ -15,6 +15,7 @@ CREATE TABLE students (
 
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('lucas', 'izquierdo', 'lucas.izquierdo@gmail.com', CURRENT_TIMESTAMP); 
 INSERT INTO `students` (`firstname`, `lastname`, `email`, `reg_date`) VALUES ('andrea', 'arencibia', 'andrea.arencibia@hotmail.com', CURRENT_TIMESTAMP);
+INSERT INTO `students` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALUES ('1', 'antonio', 'ruiz', 'antonio.ruiz@gmail.com', CURRENT_TIMESTAMP);
 ```
 
 ## SQL Query
